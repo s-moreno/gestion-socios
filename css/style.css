@@ -36,6 +36,15 @@ ul {
     list-style-type: none;
 }
 
+li {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 4px;
+}
+
+li:nth-child(odd) { 
+    background-color: rgba(234, 234, 234, 0.5); 
+}
+
 .center {
     text-align: center;
 }
