@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "nombre": "Andoni",
+    "apellido": "Larrieta"
+  },
+  {
+    "id": 2,
+    "nombre": "Jon",
+    "apellido": "Agirre"
+  },
+  {
+    "id": 3,
+    "nombre": "Patxi",
+    "apellido": "Mujika"
+  }
+]

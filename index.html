@@ -1,0 +1,55 @@
+<!--
+DESARROLLO WEB EN ENTORNO CLIENTE
+UD02 - TAREA EVALUATIVA 02
+SERGIO MORENO SANCHEZ
+20/10/2022
+-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- estilo para normalizar la visualización en los navegadores -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!-- estilo propio -->
+        <link rel="stylesheet" href="css/style.css">
+        <!------------- TITULO DE LA PAGINA ---------------------->
+        <title>Tarea Evaluativa DWEC02</title>
+    </head>
+    <body>
+        <!------------- TITULO DEL APARTADO ---------------------->
+        <header>
+            <h1 class="center">Tarea Evaluativa DWEC02</h1>
+            <p class="center mini">Sergio Moreno (smoreno@birt.eus)</p>
+        </header>
+        <main>
+            <!---------------EJERCICIO 1 - AÑADIR SOCIOS -->
+            <section>
+                <h2>Ejercicio 1 - Añadir Socios</h2>
+                <!-- Contenedor que alberga el formulario de introduccion de datos-->
+                <div id="contAniadirSocio">
+                    <form id="formNombre">
+                        <label for="fnombre">Nombre:</label><br>
+                        <input type="text" id="fnombre" name="nombre" value="Sergio"><br>
+                        <label for="fapellido">Apellido:</label><br>
+                        <input type="text" id="fapellido" name="apellido" value="Moreno"><br><br>
+                        <input type="button" id="butAniadirSocio" value="Añadir" onclick="capturarDatosSocio()">
+                    </form> 
+                </div>
+            </section>
+            <!---------------EJERCICIO 2 - PINTAR SOCIOS -->
+            <section>
+                <h2>Ejercicio 2 - Pintar socios en la Web</h2>
+                <div id="contenedorBotonSocios">
+                    <input type="button" id="butPintarSocios" 
+                    value="Pintar Lista Socios" 
+                    onclick="pintarListaSocios()">             
+                </div>
+                <div id="contenedorPintarSocios"></div>
+            </section>  
+        </main>
+            <!-------------LAMADA SCRIPTS---------------------->
+        <script type="text/javascript" src="js/scripts.js"></script>
+    </body>
+    </html>
