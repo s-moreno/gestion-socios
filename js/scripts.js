@@ -1,6 +1,6 @@
 /*
 DESARROLLO WEB EN ENTORNO CLIENTE
-UD02 - TAREA EVALUATIVA 02
+UD02 - TAREA EVALUATIVA 01
 SERGIO MORENO SANCHEZ
 20/10/2022
 */
@@ -21,8 +21,6 @@ const contenedorEscribirSocios = document.getElementById(
 
 // creamos el array de Socios vacío
 var arraySocios = new Array()
-
-
 
 // ------------------- FUNCIONES ------------------------
 
@@ -93,7 +91,7 @@ function crearID () {
 // EJERCICIO 2
 
 /*
-  TODO: metodo que elimina la lista previamente pintada en el contenedor asignado 
+  Metodo que elimina la lista previamente pintada en el contenedor asignado 
   para pintar socios, recorre el array con un bucle y pinta los socios 
 */
 function pintarListaSocios () {

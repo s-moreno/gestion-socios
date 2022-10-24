@@ -1,6 +1,6 @@
 /* 
 DESARROLLO WEB EN ENTORNO CLIENTE
-UD02 - TAREA EVALUATIVA 02
+UD02 - TAREA EVALUATIVA 01
 SERGIO MORENO SANCHEZ
 20/10/2022
 */
@@ -53,6 +53,11 @@ li:nth-child(odd) {
     font-size: small;
     font-style: italic;
     padding: 0;
+}
+
+#contenedorBotonSocios {
+    display: flex;
+    justify-content: center;
 }
 
 input[type=text] {
